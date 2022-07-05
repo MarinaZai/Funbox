@@ -1,0 +1,8 @@
+.mainQuestion {
+    display: flex;
+    padding: 36px 0px 24px 0px;
+    font-size: var(--s-size);
+    line-height: var(--l-line-height);
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px #000000;
+}

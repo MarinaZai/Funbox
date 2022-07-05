@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container } from "@mui/system";
+import "./App.css";
+import { Header } from "./components/Header/Header";
+import { MainPage } from "./MainPage/MainPage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-wrapper">
+      <Header title={"Ты сегодня покормил кота?"} />
+      <div className="app-container">
+        <MainPage />
+        <MainPage />
+        <MainPage />
+      </div>
     </div>
   );
 }

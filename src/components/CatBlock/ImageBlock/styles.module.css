@@ -1,0 +1,33 @@
+.wrapperCat {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  background: url(../../../assets/img/Photoq.png) no-repeat;
+
+  background-size: 88%;
+  height: 100%;
+}
+.weight {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Ubuntu";
+  font-weight: var(--normal);
+  line-height: 22px;
+  color: var(--external-text-color);
+  background-color: var(--default-color);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 16px;
+}
+
+.numberWeight {
+  font-size: var(--m-size);
+  line-height: 22px;
+}
+.numberText {
+  font-size: 21px;
+  line-height: var(--s-line-height);
+}

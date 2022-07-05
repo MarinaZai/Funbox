@@ -1,0 +1,44 @@
+.InfoBlock {
+  padding-top: 21px;
+  padding-left: 51px;
+}
+.title{
+    font-family: 'Ubuntu';
+    font-weight: var(--normal);
+    font-size: var(--xxs-size);
+    line-height: var(--xs-line-height);
+    color: var(--secondary-text-color);
+}
+.name {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size:  var(--xl-size);
+    line-height:var(--xl-line-height);
+    color: var(--interior-text-color);
+}
+
+.taste{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: var(--xs-size);
+    line-height: var(--m-line-height);
+    color: var(--interior-text-color);
+    padding-bottom: 15px;
+}
+
+.amount {
+    font-family: 'Ubuntu';
+    font-weight:var(--normal);
+    font-size: var( --xxs-size);
+    line-height: var(--xxs-line-height);
+    color: var(--secondary-text-color);
+}
+
+.present {
+    font-family: 'Ubuntu';
+    font-weight: var(--normal);
+    font-size: var( --xxs-size);
+    line-height: var(--xxs-line-height);
+    color: var(--secondary-text-color);
+    padding-bottom: 33px;
+}
